@@ -1,0 +1,32 @@
+öğrenci giriş bilgileri:
+
+isikgorkem - gorkem123
+
+
+yetkili giriş bilgileri
+
+admin - gorkem123
+
+
+
+
+backend\ogrenci_sifremiunuttum_backend.php,
+backend\yetkili_sifremiunuttum_backend.php
+
+
+sayfalarında yazan:
+
+$mail->Username   = 'celalkartoglu1923@gmail.com';
+                $mail->Password   = 'zcrbwksypxxykxmo';
+
+kısımları gmailden uygulama şifresi alınarak değiştirilmelidir ve;
+
+
+ogrenci_sifremiunuttum_backend.php:
+$reset_link = "http://localhost/mtuosds/ogrenci/ogrenci_sifresifirla.php?token=" . $token;
+
+
+yetkili_sifremiunuttum_backend.php:
+$reset_link = "http://localhost/mtuosds/yetkili/yetkili_sifresifirla.php?token=" . $token;
+
+kısımları resmi domain ile değiştirilmelidir.
